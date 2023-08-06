@@ -6,7 +6,7 @@ function GetStarted(props) {
 
   return (
     <div className=" mt-24 ">
-      <button onClick={() => props.onClickFunction(props.increment)} className='px-3 py-1 bg-red-600 text-white font-bold rounded-md '>
+      <button onClick={() => props.onClickFunction(props.increment)} className='px-3 py-1 bg-green-600 text-white font-bold rounded-md drop-shadow-md '>
         +{props.increment}
       </button>
     </div>
